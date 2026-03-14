@@ -86,6 +86,5 @@ def run_llm(query: str) -> Dict[str, Any]:
     }
 
 if __name__ == "__main__":
-    print("Hello World!")
     result = run_llm(query="what are deep agents?")
     print(result)
